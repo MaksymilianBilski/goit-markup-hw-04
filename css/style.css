@@ -152,7 +152,8 @@ figure {
 
 /* --- I-N-D-E-X- -M-A-I-N --- */
 .index-main-header .container {
-    background-color: var(--index-first-bg);
+    /* background-color: var(--index-first-bg); */
+    background-image: url("images/img10.jpg");
     display: flex;
     align-items: center;
     justify-content: center;
