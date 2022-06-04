@@ -152,7 +152,7 @@ figure {
 
 /* --- I-N-D-E-X- -M-A-I-N --- */
 .index-main-header {
-    background-image: url("../images/img10.jpg");
+    background-image: url("../images/img10.png");
     background-size: 1600px;
     background-repeat: no-repeat;
     display: flex;
@@ -166,7 +166,7 @@ figure {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 206px 250px 206px 250px;
+    padding: 196.78px 250px 196.78px 250px;
 }
 
 .index-h1 {
@@ -187,6 +187,16 @@ figure {
     background-color: var(--index-link-color);
     border: none;
     margin: 30px 500px 0 500px;
+}
+
+.index-antena{
+    width: 270px;
+    height: 120px;
+    display: flex;
+}
+
+.index-antena-icon{
+    margin: 0 auto;
 }
 
 .index-loremipsum {
