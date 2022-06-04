@@ -36,6 +36,14 @@
     --icon-hover-color: red;
 }
 
+:root{
+    --index-team-icons-color: #AFB1B8;;
+}
+
+:root{
+    --index-client-icon-border: #AFB1B8;
+}
+
 body {
     font-family: Roboto, Raleway, sans-serif;
     color: #212121;
@@ -247,11 +255,6 @@ figure {
 
 
 /* INDEX LOREMIPSUM ICONS */
-
-
-
-
-
 .index-loremipsum {
     display: flex;
     align-items: center;
@@ -304,6 +307,32 @@ figure {
 
 .index-about-list li:not(:last-child) {
     padding-right: 30px;
+}
+
+
+
+
+/* INDEX-TEAM-ICON */
+
+.index-team-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 206px;
+    height: 44px;
+    fill: var(--index-team-icons-color);
+}
+
+.index-team-icon svg:hover{
+    fill: var(--icon-hover-color);
+}
+
+/* INDEX-TEAM-ICON */
+
+
+
+
+.index-team-card {
+    max-height: 428px
 }
 
 .index-team {
@@ -380,6 +409,48 @@ figure {
     flex-direction: column;
     align-items: center;
 }
+
+.index-clients h2{
+        font-size: 36px;
+        line-height: 1.166em;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.index-clients-icon {
+    border: 1px solid var(--index-client-icon-border);
+    border-radius: 4px;
+}
+.index-clients svg{
+    width: 62.54px;
+    height: 45.43px;
+}
+
+.index-clients .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
 
 /* --- I-N-D-E-X- -M-A-I-N --- */
 
