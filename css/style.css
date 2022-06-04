@@ -32,6 +32,10 @@
     --index-third-font-color: #ffffff;
 }
 
+:root{ 
+    --icon-hover-color: red;
+}
+
 body {
     font-family: Roboto, Raleway, sans-serif;
     color: #212121;
@@ -81,11 +85,14 @@ figure {
 }
 
 /* --- I-N-D-E-X- -H-E-A-D-E-R --- */
-.index-header1 .container {
+.index-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.index-header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #ECECEC;
     padding: 24px 0 25px 0;
 }
 
@@ -99,6 +106,10 @@ figure {
 
 .index-top-web {
     color: var(--index-link-color);
+}
+
+.index-header-div {
+    margin-right: 300px;
 }
 
 .index-nav {
@@ -189,15 +200,57 @@ figure {
     margin: 30px 500px 0 500px;
 }
 
-.index-antena{
+
+
+
+
+/* INDEX LOREMIPSUM ICONS */
+
+
+.index-lorem-icon {
     width: 270px;
     height: 120px;
     display: flex;
 }
 
-.index-antena-icon{
+.index-antena-icon {
     margin: 0 auto;
 }
+
+.index-antena-icon:hover {
+    fill: var(--icon-hover-color);
+}
+
+.index-clock-icon {
+    margin: 0 auto;
+}
+
+.index-clock-icon:hover {
+    fill: var(--icon-hover-color);
+}
+
+.index-diagram-icon {
+    margin: 0 auto;
+}
+
+.index-diagram-icon:hover {
+    fill: var(--icon-hover-color);
+}
+
+.index-astronaut-icon {
+    margin: 0 auto;
+}
+
+.index-astronaut-icon:hover {
+    fill: var(--icon-hover-color);
+}
+
+
+/* INDEX LOREMIPSUM ICONS */
+
+
+
+
 
 .index-loremipsum {
     display: flex;
@@ -221,11 +274,17 @@ figure {
     color: var(--index-first-font-color);
 }
 
+.index-about {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 .index-about .container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 94px;
 }
 
 .index-about-list {
@@ -247,12 +306,17 @@ figure {
     padding-right: 30px;
 }
 
+.index-team {
+    background-color: var(--index-bg);
+    width: 1600px;
+    margin: 0 auto;
+}
+
 .index-team .container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--index-bg);
     padding-bottom: 50px;
 }
 
@@ -261,6 +325,7 @@ figure {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    width: 100%;
 }
 
 .index-team-list li {
@@ -319,12 +384,17 @@ figure {
 /* --- I-N-D-E-X- -M-A-I-N --- */
 
 /* --- I-N-D-E-X- -F-O-O-T-E-R --- */
+.index-footer {
+    background-color: var(--index-first-bg);
+    width: 1600px;
+    margin: 0 auto;
+}
+
 .index-footer1 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 84px;
-    background-color: var(--index-first-bg);
+    align-items: flex-start;
 }
 
 .index-bottom-logo {
@@ -413,11 +483,16 @@ figure {
 }
 
 /* --- -P-O-R-T-F-O-L-I-O- -H-E-A-D-E-R --- */
-.portfolio-header1 .container {
+.portfolio-header {
+    border-bottom: 1px solid #ECECEC;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.portfolio-header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #ECECEC;
     padding: 25px 0 24px 0;
 }
 
@@ -433,6 +508,10 @@ figure {
 
 .portfolio-upper-web {
     color: var(--portfolio-link-color);
+}
+
+.portfolio-header-div {
+    margin-right: 300px;
 }
 
 .portfolio-nav {
@@ -565,7 +644,7 @@ figure {
 /* --- -P-O-R-T-F-O-L-I-O- -F-O-O-T-E-R --- */
 .portfolio-footer {
     background-color: var(--portfolio-first-bg);
-    width: 1200px;
+    width: 1600px;
     margin: 0 auto;
 }
 
@@ -573,7 +652,7 @@ figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 84px;
+    align-items: flex-start;
 }
 
 .portfolio-bottom-logo {
