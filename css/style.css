@@ -820,6 +820,12 @@ margin-right: 30px;
         max-height: 252px;
 }
 
+.portfolio-footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .portfolio-bottom-logo {
     color: var(--portfolio-third-font-color);
     text-decoration: none;
@@ -870,9 +876,6 @@ margin-right: 30px;
 .portfolio-footer-contacts li:last-child {
     padding-bottom: 60px;
 }
-
-
-
 
 .portfolio-footer2 {
     display: flex;
