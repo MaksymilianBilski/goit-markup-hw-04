@@ -662,6 +662,7 @@ margin-right: 30px;
 .portfolio-nav {
     display: flex;
     justify-content: center;
+    margin-right: 300px;
 }
 
 .portfolio-nav li:not(:last-child) {
