@@ -283,7 +283,6 @@ fill: var(--index-icon-hover-color);
 /* INDEX ABOUT LIST */  /* INDEX ABOUT LIST */  /* INDEX ABOUT LIST */
 
 .index-about {
-    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -326,7 +325,6 @@ fill: var(--index-icon-hover-color);
 
 .index-team {
     background-color: var(--index-bg);
-    width: 1600px;
     margin: 0 auto;
 }
 
@@ -472,7 +470,6 @@ margin-right: 30px;
 /* --- I-N-D-E-X- -F-O-O-T-E-R --- */
 .index-footer {
     background-color: var(--index-first-bg);
-    width: 1600px;
     margin: 0 auto;
 }
 
@@ -630,7 +627,6 @@ margin-right: 30px;
 /* --- -P-O-R-T-F-O-L-I-O- -H-E-A-D-E-R --- */
 .portfolio-header {
     border-bottom: 1px solid #ECECEC;
-    width: 1600px;
     margin: 0 auto;
 }
 
@@ -809,7 +805,6 @@ margin-right: 30px;
 /* --- -P-O-R-T-F-O-L-I-O- -F-O-O-T-E-R --- */
 .portfolio-footer {
     background-color: var(--portfolio-first-bg);
-    width: 1600px;
     margin: 0 auto;
 }
 
