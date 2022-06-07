@@ -162,14 +162,19 @@ figure {
     text-decoration: none;
 }
 
-.index-header-contacts li:nth-child(2n + 3) {
-    padding-left: 35.5px;
+.index-header-li svg{
+    margin-right: 10px;
 }
 
-.index-header-contacts li:nth-child(2n + 2) {
-    padding-left: 10px;
+.index-header-contacts li:first-child {
+    padding-right: 30px;
 }
 
+.index-header-li:hover {
+    color: var(--index-link-color);
+    fill: var(--index-link-color);
+    cursor: pointer;
+}
 
 
 
@@ -193,12 +198,6 @@ figure {
 .index-header-contacts a:focus {
     color: var(--index-link-color);
 } */
-
-.dupa:hover {
-    color: green;
-    fill: green;
-    cursor: pointer;
-}
 
 /* --- I-N-D-E-X- -H-E-A-D-E-R --- */
 
