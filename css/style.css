@@ -164,6 +164,7 @@ figure {
 
 .index-header-li svg {
     margin-right: 10px;
+    fill: var(--index-header-icons-color);
 }
 
 .index-header-contacts li:first-child {
